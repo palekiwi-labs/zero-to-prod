@@ -21,6 +21,7 @@
           buildInputs = [
             rustToolchain
             pkgs.rust-analyzer
+            pkgs.cargo-expand
           ];
 
           shellHook = ''
